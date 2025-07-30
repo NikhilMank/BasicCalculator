@@ -8,7 +8,7 @@ if __name__ == "__main__":
     
     while True:
         try:
-            expression = input("Enter calculation (or 'exit' to quit or 'help' to see usage): ")   # Take user input for calculations
+            expression = input("Enter calculation (or 'exit' to quit or 'help' to see usage)\nUse 'ans' to use result from previous calculation: ")   # Take user input for calculations
             if expression.lower() == 'exit':
                 break
             elif expression.lower() == 'help':
