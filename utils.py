@@ -9,8 +9,12 @@ def sub(a,b):
 def mul(a,b):
     return a*b
 
-def div(a,b):
-    return a/b
+def div(a,b, ans=None):
+    if b==0:
+        print("Cannot divide by zero!!!!!! Please enter valid calculations!!!!!!")
+        return ans
+    else:
+        return a/b
 
 def mod(a,b):
     return a % b
